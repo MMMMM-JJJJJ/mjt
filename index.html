@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title>mjt的个人网站</title>
+</head>
+
+<body style="display:block; margin:0">   
+    <div 
+    style="
+    background-color:#0c428827;
+    text-align: center;
+    padding: 40px;
+    ">
+        <img alt = "米锦涛" src = "https://www.logosc.cn/oss/icons/2022/06/29/TbYHiSaChFqG5k8.png" width="80px" height="80px">
+    </div>
+    <div style="
+    max-width: 760px;
+    margin: 30px auto;
+    padding: 15px;
+    line-height: 1.7;
+    ">  
+    <p align="center"></p>
+    <p align="center">我是米锦涛</p>
+    <p align="center">推荐编程书籍工作篇：</p>
+    <p align="center">前端：《js犀牛书》《js红宝书》html可以去菜鸟教程学习也包括css</p>
+    <p align="center">前端进阶去学框架：vue，react，react native </p>
+    <p align="center">Java后端：JavSE 框架：SSM，springboot，springcloud 跨平台：JVM</p>
+    <p align="center">大数据：Hadoop， hive</p>
+    <p align="center">人工智能：基本算法，模型，深度学习</p>
+
+    </div>
+    <div
+    style="
+    background-color: rgb(247, 247, 246);">
+    <a href = "https://openjudge.sakuya.love/">oj答案大全</a>
+    <p align = "center">这里是刷题网站</p>
+    <a href="https://leetcode-cn.com/problemset/all/?difficulty=EASY">leetcode</a>
+    <a href="https://www.luogu.com.cn/">洛谷</a>
+    </div>
+    <div  style="
+    background-color:#d7cccc;
+    text-align: center;
+    padding: 40px;
+    ">
+    <p>暂时还没有版权</p>                  
+    <p>个人邮箱：2896916839@qq.com</p>
+    <p>获赞数量</p>
+    <button id = "dzs" onclick="dianzan()">0</button>
+    
+    <script>
+      function dianzan()
+      {
+        let dzstable = window.document.getElementById('dzs');
+        let dianzanshu = parseInt(dzstable.innerText);
+        let newdzs = dianzanshu + 1;
+        dzstable.innerText = newdzs;
+        return
+      }
+    </script>
+    
+    </div>
+  </body>
+</html>
