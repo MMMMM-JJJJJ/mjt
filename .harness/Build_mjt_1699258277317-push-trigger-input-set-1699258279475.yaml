@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_mjt_1699258277317-push-trigger-input-set
+  identifier: Build_mjt_1699258277317pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: sssss
+  pipeline:
+    identifier: Build_mjt_1699258277317
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
